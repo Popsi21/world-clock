@@ -5,12 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/styles.css" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
-      integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -21,26 +17,19 @@
         <option value="">Paris</option>
         <option value="">Tokyo</option>
       </select>
-      <div class="city">
+      <div class="city" id="newYork">
         <div>
           <h2>New York</h2>
-          <div class="date">October 22 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">10:29:10 <small>AM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="paris">
         <div>
-          <h2>New York</h2>
-          <div class="date">October 22 2023</div>
+          <h2>Paris</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">10:29:10 <small>AM</small></div>
-      </div>
-      <div class="city">
-        <div>
-          <h2>New York</h2>
-          <div class="date">October 22 2023</div>
-        </div>
-        <div class="time">10:29:10 <small>AM</small></div>
+        <div class="time"></div>
       </div>
     </div>
 
