@@ -43,7 +43,7 @@ select {
   border-bottom: 1px dashed rgb(195, 188, 188);
 }
 .city:last-child {
-  border: none;
+  border-bottom: none;
 }
 .time {
   font-size: 38px;
